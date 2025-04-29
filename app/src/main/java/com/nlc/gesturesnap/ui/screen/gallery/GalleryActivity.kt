@@ -125,6 +125,7 @@ class GalleryActivity : AppCompatActivity(), PhotoDeleteListener{
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         super.onBackPressed()
         actions.popActivity()
